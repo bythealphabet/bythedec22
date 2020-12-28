@@ -1,6 +1,7 @@
 import { jsx, css } from "@emotion/react"; /** @jsx jsx */
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/logo.svg";
+import LogoSvg from "../Svgs/LogoSvg";
 
 const HeaderLogo = ({ position }) => {
   const style = css`
@@ -9,7 +10,7 @@ const HeaderLogo = ({ position }) => {
     width: 100%;
     img {
       /* height: 100%; */
-      width: 100px;
+      width: 100%;
     }
     @media (min-width: 900px) {
     }
@@ -21,7 +22,8 @@ const HeaderLogo = ({ position }) => {
         ${style} ${position}
       `}
     >
-      <img src={logo} alt="solargard logo" />
+      {/* <img src={logo} alt="solargard logo" /> */}
+      <LogoSvg />
     </Link>
   );
 };

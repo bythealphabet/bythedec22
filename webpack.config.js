@@ -30,7 +30,7 @@ function webpackBaseConfig(env = {}) {
             },
           },
           {
-            test: /\.(ttf|eot|svg|gif|jpg|png)(\?[\s\S]+)?$/,
+            test: /\.(ttf|eot|svg|gif|jpg|png|mp4)(\?[\s\S]+)?$/,
             use: "file-loader",
           },
         ],

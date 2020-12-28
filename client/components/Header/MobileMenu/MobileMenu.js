@@ -1,7 +1,7 @@
 import React from "react";
 import { jsx, css } from "@emotion/react"; /** @jsx jsx */
 import { Youtube, FaceBook } from "../../Svgs/Socail";
-const MobileMenu = ({ active, navList = [] }) => {
+const MobileMenu = () => {
   const styles = css`
     color: var(--white);
     font-weight: 900;

@@ -1,11 +1,11 @@
 {
-  "name": "mern-stack-template",
+  "name": "bythedec22",
   "version": "1.0.0",
-  "description": "a template for mern stack web applications",
+  "description": "A web application for bythealphabet bussiness",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bythealphabet/mern-stack-template.git"
+    "url": "git@github.com:bythealphabet/bythedec22.git"
   },
   "keywords": [
     "Mern",
@@ -18,9 +18,9 @@
   "author": "Dudley Isaac Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bythealphabet/mern-stack-template/issues"
+    "url": "https://github.com/bythealphabet/bythedec22/issues"
   },
-  "homepage": "https://github.com/bythealphabet/mern-stack-template#readme",
+  "homepage": "https://github.com/bythealphabet/bythedec22",
   "scripts": {
     "clean": "rm -r ./dist ",
     "dev": "nodemon",
@@ -29,6 +29,7 @@
     "start": "node ./dist/server.generated.js"
   },
   "dependencies": {
+    "@babylonjs/core": "^4.2.0",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.35",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -39,6 +40,7 @@
     "@reduxjs/toolkit": "^1.4.0",
     "@sendgrid/mail": "^7.3.0",
     "axios": "^0.20.0",
+    "babylonjs-hook": "^0.0.9",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "classnames": "^2.2.6",

@@ -43,13 +43,13 @@ export const ulStyles = css`
     max-width: 900px;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
 `;
 
 export const liStyles = css`
   @media (min-width: 900px) {
-    padding: 0.8em 0.8em 0 0.8em;
+    padding: 0.8em 0.8em 0.4em 0.8em;
 
     border: none;
     text-align: center;
@@ -65,7 +65,7 @@ export const aStyles = css`
   color: var(--black);
   font-weight: 900;
   @media (min-width: 900px) {
-    color: var(--blue);
+    /* color: var(--white); */
     font-weight: 400;
   }
 `;

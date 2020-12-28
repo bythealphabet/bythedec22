@@ -26,14 +26,13 @@ function GlobalStyles(props) {
           font-size: 1rem;
           color: #404040;
           line-height: 1.6;
-          background-color: var(--white);
         }
 
-        /* #root {
+        #root {
           overflow-x: hidden;
           position: relative;
           height: 100%;
-        } */
+        }
 
         img {
           max-height: 100%;

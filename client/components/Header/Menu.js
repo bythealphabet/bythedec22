@@ -83,7 +83,6 @@ const byTheAlphabet = ({ active, navList, position }) => {
     top: var(--headerHeight);
     right: 0;
     left: 0;
-    bottom: 0;
 
     transition: transform 0.525s ease-in-out;
 

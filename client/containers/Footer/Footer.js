@@ -4,7 +4,6 @@ import { Youtube, FaceBook } from "../../components/Svgs/Socail";
 
 function Footer(props) {
   const styles = css`
-    grid-row: -1;
     grid-template-rows: 100px 100px 100px 100px;
     background-color: var(--black);
 

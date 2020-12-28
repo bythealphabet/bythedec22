@@ -22,22 +22,22 @@ const topNav = (props) => {
 
   const navList = [
     { to: "/", page: "home" },
-    { to: "/services", page: "services" },
-    { to: "/blog", page: "blog" },
+    { to: "/projects", page: "services" },
     { to: "/about", page: "about" },
     { to: "/contact", page: "contact" },
   ];
 
   const header = css`
     grid-template-rows: var(--headerHeight);
-    grid-row: 1;
 
+    background: transparent;
+    /* background: #2b3d52; */
     @media (min-width: 900px) {
       grid-template-rows: 80px;
     }
   `;
   const logo = css`
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 4;
     grid-row: 1;
     align-self: center;
 
